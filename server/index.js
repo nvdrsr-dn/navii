@@ -181,6 +181,22 @@ app.post('/api/instagram/simulate', async (req, res) => {
   }
 });
 
+// Meta Compliance Pages (Privacy Policy, Data Deletion, Terms)
+app.get('/privacy', (req, res) => {
+  const p = path.resolve(process.cwd(), 'public/privacy.html');
+  res.sendFile(p);
+});
+
+app.get('/data-deletion', (req, res) => {
+  const p = path.resolve(process.cwd(), 'public/data-deletion.html');
+  res.sendFile(p);
+});
+
+app.get('/terms', (req, res) => {
+  const p = path.resolve(process.cwd(), 'public/terms.html');
+  res.sendFile(p);
+});
+
 // Serve frontend dist if available
 const distPath = path.resolve(process.cwd(), 'dist');
 if (fs.existsSync(distPath)) {
