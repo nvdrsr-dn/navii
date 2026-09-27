@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mem-1790477849340-mklb",
+    "category": "habit",
+    "key": "delay",
+    "detail": "User promised to arrive in 5 mins: \"main 5 minute mein aa raha hu\"",
+    "source": "User chat: \"main 5 minute mein aa raha hu\"",
+    "status": "active",
+    "timestamp": 1790477849340
+  },
+  {
+    "id": "mem-1",
+    "category": "situation",
+    "key": "exam",
+    "detail": "User has an important physics/semester exam tomorrow.",
+    "source": "Earlier message: \"kal mera important exam hai\"",
+    "status": "active",
+    "timestamp": 1790463440408
+  },
+  {
+    "id": "mem-2",
+    "category": "habit",
+    "key": "timing",
+    "detail": "User always says \"5 minutes\" but usually takes 20-30 minutes.",
+    "source": "Observed pattern: \"main 5 minute mein aa raha hu\"",
+    "status": "active",
+    "timestamp": 1790391440408
+  },
+  {
+    "id": "mem-3",
+    "category": "preference",
+    "key": "drinks",
+    "detail": "Loves iced cold brew coffee when studying late at night.",
+    "source": "User mentioned: \"iced cold brew keeps me sane\"",
+    "status": "active",
+    "timestamp": 1790305040408
+  }
+]

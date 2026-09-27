@@ -1,0 +1,406 @@
+[
+  {
+    "id": "ig-1790483443690-rx7l",
+    "type": "WEBHOOK_VERIFIED",
+    "payload": {
+      "mode": "subscribe",
+      "token": "navii_instagram_verify_token_2026"
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:30:43.690Z"
+  },
+  {
+    "id": "ig-1790483364494-yiwv",
+    "type": "WEBHOOK_VERIFIED",
+    "payload": {
+      "mode": "subscribe",
+      "token": "navii_instagram_verify_token_2026"
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:29:24.494Z"
+  },
+  {
+    "id": "ig-1790483356587-znah",
+    "type": "OUTGOING_REPLY",
+    "payload": {
+      "senderId": "cf_test_user_1",
+      "reply": "heyy, look who finally showed up!",
+      "typingDelayMs": 998,
+      "sendResult": {
+        "error": {
+          "message": "Param recipient[id] must be a valid ID string (e.g., \"123\")",
+          "type": "IGApiException",
+          "code": 100,
+          "fbtrace_id": "As7Rb4pXN8-qFwCzxwVYkZT"
+        }
+      },
+      "audit": {
+        "durationMs": 15298,
+        "detectedLanguage": {
+          "language": "english",
+          "confidence": 1,
+          "script": "latin",
+          "label": "English"
+        },
+        "detectedEmotion": {
+          "emotion": "neutral",
+          "intensity": 5,
+          "markers": []
+        },
+        "energyAnalysis": {
+          "wordCount": 2,
+          "charCount": 10,
+          "category": "very_short",
+          "isGreeting": true,
+          "hasQuestions": false
+        },
+        "referenceAnalysis": {
+          "hasReference": false,
+          "references": []
+        },
+        "memoriesUsed": [],
+        "newMemoriesExtracted": [],
+        "qualityCheck": {
+          "roboticChecked": true,
+          "lengthChecked": true,
+          "languageMatched": true,
+          "repetitionCleared": true,
+          "confidenceScore": 100
+        },
+        "flags": [],
+        "wasRevised": false,
+        "timingBreakdown": {
+          "delayMs": 998,
+          "charCount": 33,
+          "estimatedWpm": 397,
+          "breakdown": {
+            "hesitation": 277,
+            "typing": 721,
+            "emotionalPause": 0
+          }
+        }
+      }
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:29:16.587Z"
+  },
+  {
+    "id": "ig-1790483339296-2zcd",
+    "type": "INCOMING_DM",
+    "payload": {
+      "senderId": "cf_test_user_1",
+      "text": "hey Navii!",
+      "username": "navisha.dn",
+      "rawEvent": {
+        "sender": {
+          "id": "cf_test_user_1"
+        },
+        "recipient": {
+          "id": "29088160597455965"
+        },
+        "message": {
+          "mid": "m_cf_1",
+          "text": "hey Navii!"
+        }
+      }
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:28:59.296Z"
+  },
+  {
+    "id": "ig-1790483324331-v5tb",
+    "type": "WEBHOOK_VERIFIED",
+    "payload": {
+      "mode": "subscribe",
+      "token": "navii_instagram_verify_token_2026"
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:28:44.331Z"
+  },
+  {
+    "id": "ig-1790483041368-nluv",
+    "type": "WEBHOOK_VERIFIED",
+    "payload": {
+      "mode": "subscribe",
+      "token": "navii_instagram_verify_token_2026"
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:24:01.368Z"
+  },
+  {
+    "id": "ig-1790482930253-ft0g",
+    "type": "OUTGOING_REPLY",
+    "payload": {
+      "senderId": "test_user_public",
+      "reply": "kuch nahi, bas tumhare 5 minute ka wait",
+      "typingDelayMs": 1072,
+      "sendResult": {
+        "error": {
+          "message": "Param recipient[id] must be a valid ID string (e.g., \"123\")",
+          "type": "IGApiException",
+          "code": 100,
+          "fbtrace_id": "ADkYQJ7svP6_yE1FaWDORIO"
+        }
+      },
+      "audit": {
+        "durationMs": 4289,
+        "detectedLanguage": {
+          "language": "hinglish",
+          "confidence": 0.9,
+          "script": "latin",
+          "label": "Hinglish (Casual Romanized Hindi)",
+          "hits": 4
+        },
+        "detectedEmotion": {
+          "emotion": "neutral",
+          "intensity": 5,
+          "markers": []
+        },
+        "energyAnalysis": {
+          "wordCount": 5,
+          "charCount": 23,
+          "category": "short",
+          "isGreeting": true,
+          "hasQuestions": true
+        },
+        "referenceAnalysis": {
+          "hasReference": false,
+          "references": []
+        },
+        "memoriesUsed": [
+          {
+            "id": "mem-1790477849340-mklb",
+            "detail": "User promised to arrive in 5 mins: \"main 5 minute mein aa raha hu\"",
+            "score": 1
+          }
+        ],
+        "newMemoriesExtracted": [],
+        "qualityCheck": {
+          "roboticChecked": true,
+          "lengthChecked": true,
+          "languageMatched": true,
+          "repetitionCleared": true,
+          "confidenceScore": 100
+        },
+        "flags": [],
+        "wasRevised": false,
+        "timingBreakdown": {
+          "delayMs": 1072,
+          "charCount": 39,
+          "estimatedWpm": 437,
+          "breakdown": {
+            "hesitation": 273,
+            "typing": 799,
+            "emotionalPause": 0
+          }
+        }
+      }
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:22:10.253Z"
+  },
+  {
+    "id": "ig-1790482923356-fc1n",
+    "type": "INCOMING_DM",
+    "payload": {
+      "senderId": "test_user_public",
+      "text": "hey, kya chal raha hai?",
+      "username": "navisha.dn",
+      "rawEvent": {
+        "sender": {
+          "id": "test_user_public"
+        },
+        "recipient": {
+          "id": "29088160597455965"
+        },
+        "message": {
+          "mid": "m_pub_1",
+          "text": "hey, kya chal raha hai?"
+        }
+      }
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:22:03.356Z"
+  },
+  {
+    "id": "ig-1790482910237-2u6s",
+    "type": "WEBHOOK_VERIFIED",
+    "payload": {
+      "mode": "subscribe",
+      "token": "navii_instagram_verify_token_2026"
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:21:50.237Z"
+  },
+  {
+    "id": "ig-1790482660077-i5oe",
+    "type": "WEBHOOK_VERIFIED",
+    "payload": {
+      "mode": "subscribe",
+      "token": "navii_instagram_verify_token_2026"
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T04:17:40.077Z"
+  },
+  {
+    "id": "ig-1790480965010-mto4",
+    "type": "OUTGOING_REPLY",
+    "payload": {
+      "senderId": "12345678",
+      "reply": "heyy, look who finally showed up 😂",
+      "typingDelayMs": 987,
+      "sendResult": {
+        "error": {
+          "message": "जिस यूज़र के लिए रिक्वेस्ट की गई थी, वह नहीं मिला.",
+          "type": "IGApiException",
+          "code": 100,
+          "error_subcode": 2534014,
+          "fbtrace_id": "ArP_s97__FSP5c2Dgs8OGFq"
+        }
+      },
+      "audit": {
+        "durationMs": 4155,
+        "detectedLanguage": {
+          "language": "english",
+          "confidence": 1,
+          "script": "latin",
+          "label": "English"
+        },
+        "detectedEmotion": {
+          "emotion": "neutral",
+          "intensity": 5,
+          "markers": []
+        },
+        "energyAnalysis": {
+          "wordCount": 1,
+          "charCount": 4,
+          "category": "very_short",
+          "isGreeting": true,
+          "hasQuestions": false
+        },
+        "referenceAnalysis": {
+          "hasReference": false,
+          "references": []
+        },
+        "memoriesUsed": [],
+        "newMemoriesExtracted": [],
+        "qualityCheck": {
+          "roboticChecked": true,
+          "lengthChecked": true,
+          "languageMatched": true,
+          "repetitionCleared": true,
+          "confidenceScore": 100
+        },
+        "flags": [],
+        "wasRevised": false,
+        "timingBreakdown": {
+          "delayMs": 987,
+          "charCount": 35,
+          "estimatedWpm": 426,
+          "breakdown": {
+            "hesitation": 318,
+            "typing": 669,
+            "emotionalPause": 0
+          }
+        }
+      }
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T03:49:25.010Z"
+  },
+  {
+    "id": "ig-1790480958808-b4on",
+    "type": "INCOMING_DM",
+    "payload": {
+      "senderId": "12345678",
+      "text": "heyy",
+      "username": "navisha.dn",
+      "rawEvent": null
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T03:49:18.808Z"
+  },
+  {
+    "id": "ig-1790480203877-9ajf",
+    "type": "OUTGOING_REPLY",
+    "payload": {
+      "senderId": "ig_user_priya",
+      "reply": "kuch khaas nahi, bas yahin baithi thi aur tum",
+      "typingDelayMs": 1181,
+      "sendResult": {
+        "queued": true,
+        "note": "Message generated and ready. Add Instagram Access Token to deliver live to user device."
+      },
+      "audit": {
+        "durationMs": 7734,
+        "detectedLanguage": {
+          "language": "hinglish",
+          "confidence": 0.99,
+          "script": "latin",
+          "label": "Hinglish (Casual Romanized Hindi)",
+          "hits": 5
+        },
+        "detectedEmotion": {
+          "emotion": "neutral",
+          "intensity": 5,
+          "markers": []
+        },
+        "energyAnalysis": {
+          "wordCount": 5,
+          "charCount": 19,
+          "category": "short",
+          "isGreeting": false,
+          "hasQuestions": true
+        },
+        "referenceAnalysis": {
+          "hasReference": false,
+          "references": []
+        },
+        "memoriesUsed": [],
+        "newMemoriesExtracted": [],
+        "qualityCheck": {
+          "roboticChecked": true,
+          "lengthChecked": true,
+          "languageMatched": true,
+          "repetitionCleared": true,
+          "confidenceScore": 100
+        },
+        "flags": [],
+        "wasRevised": false,
+        "timingBreakdown": {
+          "delayMs": 1181,
+          "charCount": 45,
+          "estimatedWpm": 457,
+          "breakdown": {
+            "hesitation": 344,
+            "typing": 837,
+            "emotionalPause": 0
+          }
+        }
+      }
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T03:36:43.877Z"
+  },
+  {
+    "id": "ig-1790480194948-gkjy",
+    "type": "INCOMING_DM",
+    "payload": {
+      "senderId": "ig_user_priya",
+      "text": "tum kya kar rhi ho?",
+      "rawEvent": null
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T03:36:34.948Z"
+  },
+  {
+    "id": "ig-1790480194666-i75x",
+    "type": "WEBHOOK_VERIFIED",
+    "payload": {
+      "mode": "subscribe",
+      "token": "navii_instagram_verify_token_2026"
+    },
+    "status": "success",
+    "timestamp": "2026-09-27T03:36:34.666Z"
+  }
+]
